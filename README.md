@@ -18,7 +18,7 @@ Ubuntu 14.04 64bit, Nginx, PHP5.5, php-fpm, xdebug, composer, MySQL 5.5, Redis, 
 ## Initial Setup
 
 * Install VirtualBox and Vagrant ( >= 1.5.0)
-* Clone this repository `git clone https://github.com/Aboalarm/devbox.git`. 
+* Clone this repository `git clone https://github.com/jandetlefsen/devbox.git`. 
 * Run `vagrant up` inside the newly created directory. (the first time you run Vagrant it will fetch the virtual box image which is ~350MB. So this could take some time)
 * Vagrant will now use Puppet to provision the devbox (this could take a few minutes)
 * Point "devbox" and any other vhosts to `192.168.3.3` in your hosts file of your host OS. e.g. `192.168.3.3 devbox myproject.dev myotherproject.dev [HOSTNAME]` 
